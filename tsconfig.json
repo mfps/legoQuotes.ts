@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "target": "es2015",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "es6"
+    },
+    "include": [
+        "node_modules/@types/**/*.d.ts",
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
